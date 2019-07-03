@@ -1,7 +1,8 @@
+platform :ios, '10.3'
 use_frameworks!
 target 'RxStorm_Tests' do
   pod 'RxStorm', :path => '../'
   
-  pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0'
+  pod 'Quick'
+    pod 'Nimble'
 end
