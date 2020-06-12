@@ -26,7 +26,7 @@ let package = Package(
             dependencies: ["RxSwift", "Alamofire", "RxAlamofire"]),
         .testTarget(
             name: "RxStormTests",
-            dependencies: ["RxStorm", "Quick", "Nimble"], exclude: ["RxStormExample/"]),
+            dependencies: ["RxStorm", "Quick", "Nimble"]),
     ],
     swiftLanguageVersions: [.v4, .v4_2, .v5]
 )
